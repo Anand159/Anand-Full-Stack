@@ -29,15 +29,7 @@ int main()
                 printf("%d * %d = %d\n", FirstNumber, SecondNumber, FirstNumber * SecondNumber);
                 break;
             case '/':
-
-                if(FirstNumber>SecondNumber)
-                {
-                    printf("%d / %d = %d\n",FirstNumber,SecondNumber,FirstNumber/SecondNumber);
-                }
-                else
-                {
-                    printf("Error : Please Enter FirstNumber>SecondNumber");
-                }
+                printf("%d / %d = %d\n",FirstNumber,SecondNumber,FirstNumber/SecondNumber);
                 break;
             default:
                 printf("Invalid operator.\n");
